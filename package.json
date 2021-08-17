@@ -1,0 +1,12 @@
+{
+  "name": "redoc_sample",
+  "version": "0.0.1",
+  "description": "Redoc API定義書Sample",
+  "main": "index.js",
+  "author": "gansoishiyakibibinba",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "redoc-cli": "^0.11.4"
+  }
+}

@@ -1,0 +1,43 @@
+openapi: 3.0.0
+info:
+  description: |-
+    ### 前提条件など
+    * ここに記述
+  version: "0.0.1"
+  title: "API"
+
+servers:
+  - url: https://xxxxxxxxx
+    description: Test server
+
+paths:
+  /api/aaa/:
+    post:
+      summary: "テストAPI"
+      description: "説明文"
+      parameters:
+        - name: "param1"
+          in: query
+          description: "パラメーター説明"
+          required: true
+          schema:
+            type: string
+            format: string
+      responses:
+        200:
+          description: 成功
+          content:
+            application/json:
+              schema:
+                description: 成功時
+                properties:
+                  response1:
+                    type: integer
+                    format: integer
+                    description: レスポンス1
+                    example: 999999
+                  response2:
+                    type: string
+                    format: string
+                    description: レスポンス2
+                    example: abcdegf
