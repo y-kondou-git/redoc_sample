@@ -3,6 +3,7 @@ yarn環境を用意
 yarn install
 ```
 
+doc作成
 ```
-yarn run redoc-cli bundle swagger.yml -o index.html
+make redoc
 ```
